@@ -1,0 +1,3 @@
+[submodule "SubmoduleTest/Assets/Tools"]
+	path = SubmoduleTest/Assets/Tools
+	url = https://github.com/MrSweetly/Scripting_Tools
