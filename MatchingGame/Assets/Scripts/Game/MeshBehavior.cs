@@ -5,6 +5,16 @@ public class MeshBehavior : MonoBehaviour
 {
     private MeshRenderer rendererObj;
 
+    private void Awake()
+    {
+        rendererObj = GetComponent<MeshRenderer>();
+        
+        if (rendererObj == null)
+        {
+            rendererObj = gameObject.AddComponent<MeshRenderer>();
+        }
+    }
+    
     private void Start()
     {
         rendererObj = GetComponent<MeshRenderer>();
@@ -12,6 +22,6 @@ public class MeshBehavior : MonoBehaviour
 
     public void ChangeRendererColor(ColorID obj)
     {
-        rendererObj.material.color = obj.value;
+            rendererObj.material.color = obj.value;
     }
 }
