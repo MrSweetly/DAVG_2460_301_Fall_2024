@@ -22,6 +22,12 @@ public class MeshBehavior : MonoBehaviour
 
     public void ChangeRendererColor(ColorID obj)
     {
-            rendererObj.material.color = obj.value;
+        rendererObj.material.color = obj.value;
+    }
+
+    public void ChangeRendererColor(ColorIDList obj)
+    {
+        obj.SetCurrentColorRandomly();
+        rendererObj.material.color = obj.currentColor.value;
     }
 }

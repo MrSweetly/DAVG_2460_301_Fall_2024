@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -17,7 +16,6 @@ public class MatchBehavior : MonoBehaviour
             matchEvent.Invoke(); }
         else {
             noMatchEvent.Invoke();
-            //yield return new WaitForSeconds(0.5f);
             noMatchDelayedEvent.Invoke();
         }
     }
