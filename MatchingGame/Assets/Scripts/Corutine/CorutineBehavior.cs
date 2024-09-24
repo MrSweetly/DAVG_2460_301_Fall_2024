@@ -7,8 +7,8 @@ using UnityEngine.Events;
 public class CorutineBehavior : MonoBehaviour
 {
     public UnityEvent startEvent, startCountEvent, repeatCountEvent, endCountEvent, repeatUntilFalseEvent;
-    
-    public bool canRun;
+
+    public bool CanRun { get; set; }
     public IntData counterNum;
     public float seconds = 3.0f;
 
@@ -44,13 +44,13 @@ public class CorutineBehavior : MonoBehaviour
 
     public void StartUntilFalse()
     {
-        canRun = true;
+        CanRun = true;
         StartCoroutine(RepeatUntilFalse());
     }
 
     IEnumerator RepeatUntilFalse()
     {
-        while (canRun) {
+        while (CanRun) {
             yield return wfsObj;
             repeatUntilFalseEvent.Invoke(); }
     }
