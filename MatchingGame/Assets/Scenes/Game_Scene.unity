@@ -2329,7 +2329,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4096359058409073517, guid: 25537fba8830bb6458373047702ecdef, type: 3}
       propertyPath: seconds
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4096359058409073517, guid: 25537fba8830bb6458373047702ecdef, type: 3}
       propertyPath: startEvent.m_PersistentCalls.m_Calls.Array.size
