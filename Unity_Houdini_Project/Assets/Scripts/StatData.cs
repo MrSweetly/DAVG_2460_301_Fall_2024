@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
-
+// Ai made; reference only
 [CreateAssetMenu]
 public class StatData : ScriptableObject
 {

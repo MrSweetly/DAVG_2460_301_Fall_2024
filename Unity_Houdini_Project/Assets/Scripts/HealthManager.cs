@@ -1,5 +1,5 @@
 using UnityEngine;
-
+// Ai made; reference only
 public class HealthManager : MonoBehaviour
 {
     public StatData healthData;  // Reference to the health ScriptableObject

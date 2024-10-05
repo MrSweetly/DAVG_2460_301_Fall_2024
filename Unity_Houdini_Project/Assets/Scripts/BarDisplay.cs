@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+// Ai made; reference only
 public class BarDisplay : MonoBehaviour
 {
     public Image barFillImage;  // The image that shows the fill
