@@ -12,7 +12,7 @@ public class PlayerMovementController : MonoBehaviour
     
     void Start()
     {
-        controller = GetComponent<CharacterController>(); // Works fine
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
@@ -24,8 +24,7 @@ public class PlayerMovementController : MonoBehaviour
         Vector3 movement = new Vector3(horizontalInput, 0, verticalInput);
 
         // Jump
-        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded) {
-            yHold = jump; }
+        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded) { yHold = jump; }
         
         // Gravity
         yHold -= gravity * Time.deltaTime;
