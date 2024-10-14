@@ -24,7 +24,10 @@ public class PlayerMovementController : MonoBehaviour
         Vector3 movement = new Vector3(horizontalInput, 0, verticalInput);
 
         // Jump
-        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded) { yHold = jump; }
+        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded)
+        {
+            yHold = jump;
+        }
         
         // Gravity
         yHold -= gravity * Time.deltaTime;
