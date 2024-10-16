@@ -10,7 +10,7 @@ public class ImageFillBehavior : MonoBehaviour
     public float fillAmount = 1f;
     
     public List<TagFillChange> tagFillChanges;
-
+    
     private void Update()
     {
         image.fillAmount = Mathf.Clamp(fillAmount, 0f, 1f);
@@ -18,6 +18,7 @@ public class ImageFillBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // Check each tag in tagFillChange list, then send tag data to ChangeFillAmount if called
         foreach (var tagFillChange in tagFillChanges)
         {
             if (other.CompareTag(tagFillChange.tag))
@@ -28,11 +29,13 @@ public class ImageFillBehavior : MonoBehaviour
         }
     }
 
+    // Update fillAmount with changeValue
     private void ChangeFillAmount(float changeValue)
     {
         fillAmount += changeValue;
     }
 
+    // Inspector view
     [System.Serializable]
     public class TagFillChange
     {
@@ -40,3 +43,5 @@ public class ImageFillBehavior : MonoBehaviour
         public float fillChange;
     }
 }
+
+// Note: Can be used for any fill-type image, but only once per object. V1, will be updated.
