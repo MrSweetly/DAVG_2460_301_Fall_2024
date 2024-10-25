@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8119,6 +8119,7 @@ GameObject:
   - component: {fileID: 571916403}
   - component: {fileID: 571916406}
   - component: {fileID: 571916402}
+  - component: {fileID: 571916410}
   - component: {fileID: 571916407}
   - component: {fileID: 571916408}
   - component: {fileID: 571916409}
@@ -8151,7 +8152,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571916400}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbef62166c8f6854193a19a0f7de5855, type: 3}
   m_Name: 
@@ -8431,6 +8432,19 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   holdTime: 2
+--- !u!114 &571916410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571916400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c014664f3818d2646bd46f818de715dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterConfig: {fileID: 11400000, guid: 0322b0d3458fa5249ba22cc322415ac4, type: 2}
 --- !u!1 &580921222
 GameObject:
   m_ObjectHideFlags: 0
@@ -10111,7 +10125,7 @@ MonoBehaviour:
   _forceUploadInputs: 0
   _upstreamCookChanged: 0
   _cookStatus: 0
-  _lastCookResult: 1
+  _lastCookResult: 2
   _isCookingAssetReloaded: 1
   _sessionID: 2709118842688
   _uiLocked: 1
