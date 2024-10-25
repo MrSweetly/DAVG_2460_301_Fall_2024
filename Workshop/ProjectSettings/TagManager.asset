@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - PowerUp
   - Heal
+  - Gain_Mana
+  - Lose_Mana
   layers:
   - Default
   - TransparentFX

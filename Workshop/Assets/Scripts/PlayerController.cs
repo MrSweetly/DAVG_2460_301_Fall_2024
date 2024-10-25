@@ -12,20 +12,31 @@ public class PlayerController : MonoBehaviour
     
     void Start()
     {
-        controller = GetComponent<CharacterController>(); // Works fine
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
     {
         // Inputs
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        var horizontalInput = Input.GetAxis("Horizontal");
+        var verticalInput = Input.GetAxis("Vertical");
         
-        Vector3 movement = new Vector3(horizontalInput, 0, verticalInput);
+        var movement = new Vector3(horizontalInput, 0, verticalInput);
 
-        // Jump
-        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded) {
-            yHold = jump; }
+        // If grounded, reset vertical speed
+        if (controller.isGrounded)
+        {
+            if (yHold < 0)
+            {
+                yHold = -1f; // Fall
+            }
+
+            // Jump
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                yHold = jump;
+            }
+        }
         
         // Gravity
         yHold -= gravity * Time.deltaTime;
