@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47d17582c8b60e489ab130da20f25a0, type: 3}
   m_Name: CharV1Controls
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   gravity: 9.81
   jump: 3
