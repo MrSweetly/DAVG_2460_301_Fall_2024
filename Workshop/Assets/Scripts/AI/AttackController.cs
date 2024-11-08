@@ -1,120 +1,35 @@
 using UnityEngine;
-using System.Collections;
-using UnityEngine.AI;
+using System.Collections.Generic;
 
 public class AttackController : MonoBehaviour
 {
-    public float attackRange = 2f;
-    public float activationDelay = 1f; // Time before enabling the attack collider
-    public float executionPauseTime = 1f; // Time to pause during attack execution
-    public float recoveryTime = 1f; // Time to recover after the attack
-    public Collider attackCollider; // The collider to enable for the attack
+    public float attackCooldown = 1.5f; // Time between attacks
+    public List<TagFillChange> tagFillChanges; // List of tag-damage values
 
-    private Transform player;
-    private bool isAttacking;
-    private NavMeshAgent navMeshAgent;
+    private float lastAttackTime = 0f;
 
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        player = PlayerManager.Instance.player.transform;
-        navMeshAgent = GetComponent<NavMeshAgent>();
-
-        if (attackCollider != null)
+        if (Time.time >= lastAttackTime + attackCooldown)
         {
-            attackCollider.enabled = false;
+            lastAttackTime = Time.time; // Reset the attack cooldown
+
+            // Check each tag in tagFillChange list, then send tag data to player's fillAmount if matched
+            foreach (var tagFillChange in tagFillChanges)
+            {
+                if (other.CompareTag(tagFillChange.tag))
+                {
+                    ImageFillBehavior playerFillBehavior = other.GetComponent<ImageFillBehavior>();
+                    break;
+                }
+            }
         }
-        // End of if
     }
-    // End of Start
 
-    void Update()
+    // Define TagFillChange class for this script as well
+    [System.Serializable]
+    public class TagFillChange
     {
-        if (!isAttacking && IsPlayerInRange())
-        {
-            StartCoroutine(AttackCycle());
-        }
-        // End of if
+        public string tag;
     }
-    // End of Update
-
-    private bool IsPlayerInRange()
-    {
-        return Vector3.Distance(player.position, transform.position) <= attackRange;
-    }
-    // End of IsPlayerInRange
-
-    // ReSharper disable Unity.PerformanceAnalysis
-    private IEnumerator AttackCycle()
-    {
-        isAttacking = true;
-
-        StopMovement();
-        //
-        Debug.Log("Attack Preparation");
-        //
-
-        yield return new WaitForSeconds(activationDelay);
-
-        ExecuteAttack();
-
-        // Pause after executing attack
-        yield return new WaitForSeconds(executionPauseTime);
-
-        DisableAttackCollider();
-
-        yield return new WaitForSeconds(recoveryTime);
-
-        ResumeMovement();
-        isAttacking = false; // Reset for the next attack cycle
-        //
-        Debug.Log("Attack Cycle Reset");
-        //
-    }
-    // End of AttackCycle
-
-    private void StopMovement()
-    {
-        if (navMeshAgent)
-        {
-            navMeshAgent.isStopped = true;
-            navMeshAgent.velocity = Vector3.zero;
-            navMeshAgent.enabled = false;
-        }
-        // End of if
-    }
-    // End of StopMovement
-
-    private void ResumeMovement()
-    {
-        if (navMeshAgent)
-        {
-            navMeshAgent.enabled = true;
-            navMeshAgent.isStopped = false;
-        }
-        // End of if
-    }
-    // End of ResumeMovement
-
-    private void ExecuteAttack()
-    {
-        if (attackCollider != null)
-        {
-            attackCollider.enabled = true;
-            //
-            Debug.Log("Attack Executed");
-            //
-        }
-        // End of if
-    }
-    // End of ExecuteAttack
-
-    private void DisableAttackCollider()
-    {
-        if (attackCollider)
-        {
-            attackCollider.enabled = false;
-        }
-        // End of if
-    }
-    // End of DisableAttackCollider
 }

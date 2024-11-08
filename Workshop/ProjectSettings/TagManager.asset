@@ -9,6 +9,7 @@ TagManager:
   - Heal
   - Gain_Mana
   - Lose_Mana
+  - Damage
   layers:
   - Default
   - TransparentFX

@@ -23,6 +23,12 @@ public class PlayerController : MonoBehaviour
         
         var movement = new Vector3(horizontalInput, 0, verticalInput);
 
+        // If moving, rotate the player
+        if (movement.magnitude > 0.1f)
+        {
+            FaceMovementDirection(movement);
+        }
+        
         // If grounded, reset vertical speed
         if (controller.isGrounded)
         {
@@ -46,5 +52,15 @@ public class PlayerController : MonoBehaviour
         // Movement
         var moveSpeed = movement * (speed * Time.deltaTime);
         controller.Move(moveSpeed);
+    }
+    
+    // Rotation
+    private void FaceMovementDirection(Vector3 movement)
+    {
+        Vector3 flatMovement = new Vector3(movement.x, 0, movement.z);
+        
+        Quaternion targetRotation = Quaternion.LookRotation(flatMovement);
+        
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
     }
 }
