@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1eaf2f5d5f5841b469188cf058f10d69
+guid: 774ff83760ca481489f595c8e20e9d7e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -24,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Death
+      name: IsJump
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 0
-      lastFrame: 44
+      lastFrame: 32
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

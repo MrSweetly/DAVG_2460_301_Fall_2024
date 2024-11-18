@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private static readonly int IsRunning = Animator.StringToHash("IsRunning");
+    private static readonly int IsJumping = Animator.StringToHash("IsJumping");
+    private Animator animator;
     private CharacterController controller;
     
     public float speed;
@@ -9,10 +12,12 @@ public class PlayerController : MonoBehaviour
     public float jump;
 
     private float yHold;
+    private bool isJumping = false;
     
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -27,6 +32,11 @@ public class PlayerController : MonoBehaviour
         if (movement.magnitude > 0.1f)
         {
             FaceMovementDirection(movement);
+            animator.SetBool(IsRunning, true);
+        }
+        else
+        {
+            animator.SetBool(IsRunning, false);
         }
         
         // If grounded, reset vertical speed
@@ -41,7 +51,21 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 yHold = jump;
+                isJumping = true;
             }
+            else
+            {
+                isJumping = false;
+            }
+        }
+
+        if (isJumping)
+        {
+            animator.SetBool(IsJumping, true);
+        }
+        else
+        {
+            animator.SetBool(IsJumping, false);
         }
         
         // Gravity

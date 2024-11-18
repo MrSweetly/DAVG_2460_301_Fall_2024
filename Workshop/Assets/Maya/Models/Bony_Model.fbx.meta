@@ -24,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -82,7 +82,3182 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Bony_Model(Clone)
+      parentName: 
+      position: {x: -0.06259816, y: 1.299169, z: 0.5683055}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      parentName: Bony_Model(Clone)
+      position: {x: 0.030071668, y: -2.4438403, z: -0.813827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_NeckBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.057955362, y: 1.3883175, z: -0.0001801663}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_NeckBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_NeckBtmClstrG
+      position: {x: -3.9443043e-32, y: 0.01460193, z: 0.0022014962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_HeadClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.06286501, y: 1.4709872, z: 0.0313138}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_HeadClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_HeadClstrG
+      position: {x: -0, y: -0.01460193, z: -0.0022014962}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ROOTCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0, y: 0.9532229, z: 0.0037217026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ROOTC
+      parentName: Ultimate_Bony_v1_0_5:Bony_ROOTCG
+      position: {x: 0.049999997, y: -0.099999994, z: 0}
+      rotation: {x: 0, y: -0.043619387, z: -0, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonymidSpineAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_ROOTC
+      position: {x: -0, y: 0, z: -0.099999994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonymidSpineTargetLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_ROOTC
+      position: {x: 1.3493971e-16, y: 0.4386186, z: -0.10372169}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_MainHipCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.049999997, y: 0.8532229, z: 0.0037217026}
+      rotation: {x: 0, y: -0.043619387, z: -0, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_MainHipC
+      parentName: Ultimate_Bony_v1_0_5:Bony_MainHipCG
+      position: {x: -0, y: 0, z: -0.099999994}
+      rotation: {x: 0.2157724, y: 0.016981656, z: 0.0765993, w: 0.9732864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spineLengthClstr01
+      parentName: Ultimate_Bony_v1_0_5:Bony_MainHipC
+      position: {x: 5.2911104e-18, y: 0.03225137, z: 0.00076462864}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spineBtmTX_Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_MainHipC
+      position: {x: 0.036580738, y: 0.22663361, z: -0.060484592}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine01FKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.049773417, y: 0.9628776, z: 0.0063115475}
+      rotation: {x: 0, y: -0.043619387, z: -0, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine01FKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_Spine01FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.15571578, y: -0, z: -0, w: 0.9878019}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_SpineMidIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.046617765, y: 1.0664147, z: 0.042380787}
+      rotation: {x: 0.10370603, y: -0.043383747, z: 0.004527903, w: 0.9936511}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_SpineMidIKCG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_SpineMidIKCG
+      position: {x: -0, y: 0, z: -0.028885312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_SpineMidIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_SpineMidIKCG2
+      position: {x: -0, y: 0, z: -0.07111468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spineLengthClstr02
+      parentName: Ultimate_Bony_v1_0_5:Bony_SpineMidIKC
+      position: {x: 8.7089785e-18, y: 0.0012074085, z: -0.0018795705}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_SpineTopIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.043431714, y: 1.2828399, z: 0.07879751}
+      rotation: {x: 0.10370603, y: -0.043383747, z: 0.004527903, w: 0.9936511}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_SpineTopIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_SpineTopIKCG
+      position: {x: -0, y: 0, z: -0.099999994}
+      rotation: {x: 0, y: -0, z: -0.043619387, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spineLengthClstr03
+      parentName: Ultimate_Bony_v1_0_5:Bony_SpineTopIKC
+      position: {x: -1.4137165e-17, y: -0.0313299, z: 0.0012744538}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_SpineTopTX_Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_SpineTopIKC
+      position: {x: 0.019114066, y: -0.21847476, z: 0.008921177}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine02FKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.046617765, y: 1.0664147, z: 0.042380787}
+      rotation: {x: 0.15556759, y: -0.04308732, z: 0.0067922273, w: 0.98686177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine02FKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_Spine02FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.052335955, y: 0, z: -0, w: 0.9986295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine03FKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.0451, y: 1.1748096, z: 0.059728917}
+      rotation: {x: 0.10370603, y: -0.043383747, z: 0.004527903, w: 0.9936511}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine03FKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_Spine03FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine04FKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.043431714, y: 1.2828399, z: 0.07879751}
+      rotation: {x: 0.10370603, y: -0.043383747, z: 0.004527903, w: 0.9936511}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine04FKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_Spine04FKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ribbonSpineG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.548293, y: 0.548293, z: 0.548293}
+    - name: Ultimate_Bony_v1_0_5:Bony_spineBtm01JIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_ribbonSpineG
+      position: {x: 0.10708794, y: 1.556144, z: -0.1749024}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 0.95628244, y: 1.0457162, z: 0.95628244}
+    - name: Ultimate_Bony_v1_0_5:Bony_spineMidJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_ribbonSpineG
+      position: {x: 0.10057671, y: 1.9826325, z: -0.10047874}
+      rotation: {x: 0.10370603, y: -0.043383747, z: 0.004527903, w: 0.9936511}
+      scale: {x: 0.95628244, y: 1.0457162, z: 0.95628244}
+    - name: Ultimate_Bony_v1_0_5:Bony_SpineTopJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_ribbonSpineG
+      position: {x: 0.09476586, y: 2.377358, z: -0.034060363}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 0.95628244, y: 1.0457162, z: 0.95628244}
+    - name: Ultimate_Bony_v1_0_5:Bony_HeadCG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.06286501, y: 1.4709872, z: 0.0313138}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_HeadCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_HeadCG2
+      position: {x: -3.9443043e-32, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_HeadC
+      parentName: Ultimate_Bony_v1_0_5:Bony_HeadCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Neck01CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.057955362, y: 1.3883175, z: -0.0001801663}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Neck01C
+      parentName: Ultimate_Bony_v1_0_5:Bony_Neck01CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_NeckLengthAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.057955362, y: 1.3883175, z: -0.0001801663}
+      rotation: {x: 0.1807793, y: -5.293526e-18, z: -0.028182035, w: 0.98311985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_NeckLengthTargetLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_NeckLengthAimLctr
+      position: {x: 2.7755574e-18, y: 0.08860172, z: -8.8817837e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_NeckUpLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.052854456, y: 1.4113572, z: 0.1019292}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLegSwitchCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.1318765, y: 0.13243733, z: -0.199379}
+      rotation: {x: 0.0784591, y: 0.000000005375745, z: 0.000000005639885, w: 0.99691737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLegSwitchC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLegSwitchCG
+      position: {x: -0, y: 0, z: -0.115524046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lArmIKHandle
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.7121921, y: 1.4202687, z: -0.0027722805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFootIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.0918765, y: -6.816769e-15, z: -0.01899725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFootIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootIKCG
+      position: {x: -0.04, y: 0.11683624, z: -0.19999999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.09192191, y: 0.5190224, z: 0.0037047805}
+      rotation: {x: 0.014483181, y: -0.0014908499, z: -0.000021571748, w: 0.999894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeIKCG
+      position: {x: -0, y: 2.664535e-16, z: 0.41840827}
+      rotation: {x: -0.04454974, y: -0.0124707, z: -0.00015141032, w: 0.9989293}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeFKAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeIKCG
+      position: {x: 0.13324066, y: -0.25175247, z: 0.096921004}
+      rotation: {x: 0.21248326, y: -0.022988921, z: 0.0860072, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeIKC_TargetLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.077168204, y: 0.47237918, z: -0.15093914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lBallFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.1369259, y: -0.050410382, z: -0.4150163}
+      rotation: {x: 0.0892988, y: 0.670063, z: 0.21083386, w: 0.7061094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lBallFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lBallFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.4904466, y: 0.4904466, z: 0.4904466}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.11755077, y: 0.099642284, z: -0.46624187}
+      rotation: {x: 0.5369499, y: 0.4106623, z: 0.64837676, w: 0.3502127}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.045589976, y: 0.45017582, z: -0.2812635}
+      rotation: {x: 0.5477806, y: 0.3943998, z: 0.6586112, w: 0.33259085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.4904466, z: 0.4904466}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.022369131, y: 0.7920228, z: -0.12518439}
+      rotation: {x: 0.5366056, y: 0.40990448, z: 0.6488113, w: 0.35082284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lHipFKCG
+      position: {x: -0, y: 3.8857802e-17, z: -3.330669e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipFKOrientLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lHipFKCG
+      position: {x: 3.5527135e-16, y: 0, z: -2.2204459e-17}
+      rotation: {x: 0.02603963, y: -0.16142444, z: -0.4247383, w: 0.8904277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lArmSwitchCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.19202736, y: 1.3067234, z: 0.2295434}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: 0.4358673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lArmSwitchC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lArmSwitchCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.43854004, y: 1.4202688, z: -0.002834402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowIKCG
+      position: {x: -0, y: 0, z: -0.5999623}
+      rotation: {x: 0.035850514, y: 0.07126024, z: -0.0025628917, w: 0.99681}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowFKAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowIKCG
+      position: {x: 0.0008430761, y: -0.5562931, z: -0.069668636}
+      rotation: {x: -0.35065573, y: 0.4895279, z: 0.28380215, w: 0.74623007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowIKC_TargetLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.3577096, y: 1.3793428, z: -0.040345136}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.7121921, y: 1.4202687, z: -0.0027722805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristIKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.19202736, y: 1.3067234, z: 0.2295434}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: 0.4358673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristIKLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: -0.4358673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.2547838, y: 1.1396965, z: 0.022060525}
+      rotation: {x: -0.18002373, y: 0.089749455, z: 0.4136063, w: 0.88795626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 8.5280025e-17, y: 0.81915206, z: -8.5280025e-17, w: 0.57357645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderFKCG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.14222981, y: 1.4202688, z: -0.0027722793}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lShoulderFKCG2
+      position: {x: 0.07873996, y: -0.079381816, z: -0.056382213}
+      rotation: {x: 1.686941e-11, y: -0.00010482733, z: 0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lShoulderFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.25973606, y: 0.16011979, z: 0.44274876, w: 0.8431325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderFKOrientLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lShoulderFKCG
+      position: {x: -0, y: 0, z: 2.3939183e-17}
+      rotation: {x: -0.08007609, y: 0.08275809, z: -0.024162939, w: 0.99305344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lClavicleCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.023030372, y: 1.338392, z: -0.02068599}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lClavicleC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lClavicleCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.016692417, y: -0.3823192, z: 0.040299058, w: 0.9230002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lArmIKFKG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.023030372, y: 1.338392, z: -0.02068599}
+      rotation: {x: 0.097544625, y: -0.42033514, z: -0.03550334, w: 0.90141165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lArmIKFKG
+      position: {x: -0.064576976, y: -7.105427e-16, z: -2.2204459e-17}
+      rotation: {x: -0.07814338, y: 0.4879202, z: 0.47130257, w: 0.7305487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lArmIKFKG
+      position: {x: -0.064576976, y: -3.5527135e-16, z: -4.510281e-18}
+      rotation: {x: -0.09639477, y: 0.45877975, z: -0.033095505, w: 0.8826856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lShoulderJIK
+      position: {x: -0.29631025, y: -1.7763567e-16, z: -1.08550315e-13}
+      rotation: {x: 0.000030514206, y: 0.0000002485285, z: 7.58396e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowJIK
+      position: {x: -0.27365205, y: 0, z: 3.4694467e-19}
+      rotation: {x: -0.029463843, y: -0.049286738, z: 0.056940794, w: 0.99672484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLegIKFKG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.05871557, y: 0.8532229, z: -0.095897764}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLegIKFKG
+      position: {x: -0.09187654, y: -0.05231241, z: -1.7763567e-16}
+      rotation: {x: 0.49948147, y: 0.49939993, z: 0.50054, w: 0.50057733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLegIKFKG
+      position: {x: -0.09187654, y: -0.05231241, z: 5.5511148e-18}
+      rotation: {x: 0.32676595, y: 0.5891293, z: 0.13920125, w: 0.72579175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lHipJIK
+      position: {x: -0.3818881, y: -6.52256e-17, z: 3.330669e-17}
+      rotation: {x: -0.00030812537, y: 0.0002279585, z: 0.5150378, w: 0.8571674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeJIK
+      position: {x: -0.40282643, y: 2.553513e-16, z: 3.330669e-17}
+      rotation: {x: 0.021293309, y: 0.08386704, z: -0.5730002, w: 0.81497467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lBallJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleJIK
+      position: {x: -0.15973495, y: 7.7715604e-17, z: 2.2204459e-17}
+      rotation: {x: -3.9723464e-11, y: 7.4725066e-11, z: -0.46952623, w: 0.88291854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lToeJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lBallJIK
+      position: {x: -0.14832915, y: -4.334918e-17, z: 6.106226e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJFKG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.19202736, y: 1.3067234, z: 0.2295434}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: 0.4358673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJFKG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJFKG2
+      position: {x: 1.7763567e-16, y: 1.7349143e-11, z: 7.986666e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJFKG1
+      position: {x: 1.7763567e-16, y: 0, z: 2.2204459e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowJFKG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.2547838, y: 1.1396965, z: 0.022060525}
+      rotation: {x: -0.18000387, y: 0.08963601, z: 0.4136293, w: 0.88796103}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowJFKG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowJFKG2
+      position: {x: 8.8817837e-17, y: -3.5527135e-16, z: -2.081668e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowJFKG1
+      position: {x: 1.7763567e-16, y: -1.7763567e-16, z: -1.11022296e-16}
+      rotation: {x: 0.0000173623, y: 0.81921715, z: 0.00002509369, w: 0.57348347}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJIKDummyG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.35758132, y: 1.3805959, z: -0.03913454}
+      rotation: {x: 0.02940284, y: 0.049063366, z: -0.05694106, w: 0.99673766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJIKDummyG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJIKDummyG2
+      position: {x: -0.27365205, y: -0.000000095367426, z: 0.00006212171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJIKDummy
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJIKDummyG1
+      position: {x: -0, y: 0, z: -2.4286126e-18}
+      rotation: {x: -0.02940284, y: -0.049063366, z: 0.05694106, w: 0.99673766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lPalmCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.18235585, y: 1.3324744, z: 0.26154378}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: 0.4358673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lPalmC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmC
+      position: {x: -0.06292234, y: -1.9539924e-15, z: 0.035565812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger1J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmC
+      position: {x: -0.06292234, y: -0.036800575, z: 0.035565812}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger1J2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmC
+      position: {x: -0.02579357, y: -0.036800575, z: 0.035565812}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger1J3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmC
+      position: {x: -0.06367194, y: -3.9079847e-15, z: -0.014469472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger2J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmC
+      position: {x: -0.06367194, y: -0.037894584, z: -0.014469472}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger2J2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmC
+      position: {x: -0.027965378, y: -0.037894584, z: -0.014469472}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger2J3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lArmLengthOriginLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.06462542, y: 1.3478209, z: -0.06917449}
+      rotation: {x: 2.1745675e-18, y: 0.05083423, z: -0.055462435, w: 0.9971659}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lArmLengthEndLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lArmLengthOriginLctr
+      position: {x: -0.6549813, y: 1.7763567e-16, z: 3.3306688e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleJFKG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.045589976, y: 0.45017582, z: -0.2812635}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleJFKG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleJFKG2
+      position: {x: 0.000045405595, y: -0.40218621, z: -0.02270203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleJFKG1
+      position: {x: -1.4432899e-16, y: 0, z: 8.326672e-18}
+      rotation: {x: 0.28199834, y: 0.648442, z: 0.28199834, w: 0.648442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lBallJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleJFK
+      position: {x: -0.15973495, y: 7.460698e-15, z: -4.107825e-16}
+      rotation: {x: 0, y: 0, z: -0.39880586, w: 0.9170354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lToeJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lBallJFK
+      position: {x: -0.14832915, y: -4.334918e-17, z: 6.106226e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeJFKG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.022369131, y: 0.7920228, z: -0.12518439}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeJFKG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeJFKG2
+      position: {x: -0.000045369834, y: -0.38188806, z: -0.000016922197}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeJFKG1
+      position: {x: 1.11022296e-17, y: -8.8817837e-17, z: -3.5388358e-17}
+      rotation: {x: 0.5131432, y: 0.48496786, z: 0.51464796, w: 0.48644397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLegLengthOriginLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.022369131, y: 0.7920228, z: -0.12518439}
+      rotation: {x: -0.64699215, y: -4.1344978e-16, z: 0.7552313, w: 0.105008535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLegLengthEndLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLegLengthOriginLctr
+      position: {x: 4.4408918e-17, y: 0.6904127, z: 6.2172483e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristFKLctrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.7121921, y: 1.4202687, z: -0.0027722805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristFKLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristFKLctrG
+      position: {x: 0.5201647, y: -0.11354535, z: 0.23231569}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: 0.4358673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleFKLctrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.0918765, y: 0.11683624, z: -0.01899725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleFKLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleFKLctrG
+      position: {x: 0.20942727, y: -0.017193962, z: -0.4472446}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lToeIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.13094234, y: 0.06533996, z: 0.07634991}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lToeIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lToeIKCG
+      position: {x: -0.0009341444, y: -0.06533996, z: -0.038093477}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lBallSwivel
+      parentName: Ultimate_Bony_v1_0_5:Bony_lToeIKC
+      position: {x: 6.139533e-15, y: -6.0543525e-18, z: -0.14832915}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFootInTilt
+      parentName: Ultimate_Bony_v1_0_5:Bony_lBallSwivel
+      position: {x: 0.059068836, y: 6.816769e-15, z: 7.283063e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFootOutTilt
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootInTilt
+      position: {x: -0.14127062, y: 0, z: 5.5511148e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFootHeelPivot
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootOutTilt
+      position: {x: 0.0822018, y: 0, z: -0.16548279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFootBallPivot
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootHeelPivot
+      position: {x: 1.7763567e-16, y: -6.816769e-15, z: 0.16548279}
+      rotation: {x: 0.07845911, y: -0, z: -0, w: 0.99691737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lBallIKHandle
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootBallPivot
+      position: {x: 3.1086242e-16, y: -1.518366e-17, z: -2.759483e-16}
+      rotation: {x: 0.28199834, y: 0.648442, z: 0.28199834, w: 0.648442}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLegIKHandle
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootBallPivot
+      position: {x: 2.2204459e-17, y: 0.11683624, z: -0.108924516}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeTargetLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootBallPivot
+      position: {x: -8.8817837e-17, y: 0.11683624, z: -0.108924516}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFootToePivot
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootHeelPivot
+      position: {x: 1.7763567e-16, y: -6.816769e-15, z: 0.16548279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lToeIKHandle
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFootToePivot
+      position: {x: -5.52891e-15, y: 1.4288275e-17, z: 0.14832915}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.06462542, y: 1.3478209, z: -0.06917449}
+      rotation: {x: -2.740796e-17, y: -0.45928502, z: -0.062355418, w: 0.88609767}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lShoulderIKLockLctr
+      position: {x: -0.6556017, y: -1.7763567e-16, z: 8.8817837e-17}
+      rotation: {x: 5.776562e-17, y: 0.86712736, z: -0.0062837233, w: 0.49804693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowIKLockLctr
+      position: {x: -0.6594807, y: 3.5527135e-16, z: -5.32907e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.022369131, y: 0.7920228, z: -0.12518439}
+      rotation: {x: 1.115686e-16, y: 0.59024024, z: 0.30758995, w: 0.7463276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lHipIKLockLctr
+      position: {x: -0.62100387, y: 1.7763567e-16, z: 2.2204459e-16}
+      rotation: {x: -1.1699517e-16, y: -0.4988483, z: 0.711711, w: 0.4945887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeIKLockLctr
+      position: {x: -0.7264677, y: 4.4408918e-17, z: 0}
+      rotation: {x: 0.07856205, y: 0.13058414, z: -0.0054066763, w: 0.9883049}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleIKLctrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.1175507, y: 0.099642634, z: -0.46624166}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleIKLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleIKLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.21222584, y: 0.025488665, z: -0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLegSwitchCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.1318765, y: 0.11683641, z: 0.061002716}
+      rotation: {x: -0.000000031216416, y: 0.99455464, z: 0.00000024895903, w: 0.104217015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLegSwitchC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLegSwitchCG
+      position: {x: -0, y: 0, z: 0.115524046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rArmIKHandle
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.7121921, y: 1.4202687, z: -0.0027722805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFootIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.0918765, y: -8.8817837e-16, z: -0.01899725}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFootIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootIKCG
+      position: {x: 0.04, y: -0.11683624, z: -0.08}
+      rotation: {x: 0, y: 0.10421702, z: -0, w: 0.99455464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.09192191, y: 0.5190224, z: 0.0037047805}
+      rotation: {x: 0.014483181, y: 0.0014908499, z: 0.000021571748, w: 0.999894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeIKCG
+      position: {x: 1.11022296e-17, y: 3.5527135e-16, z: 0.41840827}
+      rotation: {x: -0.04625847, y: -0.060994327, z: -0.0011039762, w: 0.997065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeFKAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeIKCG
+      position: {x: 0.13211589, y: -0.22215024, z: 0.11290194}
+      rotation: {x: 0.21196653, y: -0.022988902, z: 0.08727292, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeIKC_TargetLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.14519915, y: 0.47895133, z: -0.012839303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rBallFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.317726, y: -0.021665076, z: -0.39919832}
+      rotation: {x: 0.670063, y: -0.0892988, z: 0.7061094, w: -0.21083386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rBallFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rBallFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -0.4904466, y: -0.4904466, z: -0.4904466}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.29835084, y: 0.12838759, z: -0.45042387}
+      rotation: {x: -0.4106623, y: 0.5369499, z: -0.3502127, w: 0.64837676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.2264794, y: 0.47893536, z: -0.26543772}
+      rotation: {x: -0.39632455, y: 0.5488441, z: -0.33100033, w: 0.6573704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: -0.4904466, z: -0.4904466}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.15843101, y: 0.8207681, z: -0.109366424}
+      rotation: {x: -0.41141686, y: 0.53732294, z: -0.34955606, w: 0.6479436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rHipFKCG
+      position: {x: -3.5527135e-16, y: 1.5681899e-16, z: 1.9984014e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipFKOrientLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rHipFKCG
+      position: {x: -0, y: 1.3877787e-18, z: 0}
+      rotation: {x: 0.007268475, y: 0.08474431, z: -0.513646, w: 0.853776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rArmSwitchCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.2570803, y: 1.2720951, z: 0.2614995}
+      rotation: {x: 0.37192258, y: -0.15692665, z: 0.76643395, w: 0.4996265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rArmSwitchC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rArmSwitchCG
+      position: {x: -0, y: 0, z: -3.4694467e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.43854004, y: 1.4202688, z: -0.002834402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowIKCG
+      position: {x: -0, y: 0, z: -0.5399623}
+      rotation: {x: 0.04327196, y: 0.018584933, z: -0.0008050999, w: 0.99889016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowFKAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowIKCG
+      position: {x: 0.010142077, y: -0.59929365, z: 0.00078540953}
+      rotation: {x: -0.370735, y: -0.50808644, z: -0.36988688, w: 0.6838037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowIKC_TargetLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.4577355, y: 1.3754758, z: -0.027122663}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.7121921, y: 1.4202687, z: -0.0027722805}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristIKCG
+      position: {x: -0, y: 0, z: -3.4694467e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.2570803, y: 1.2720951, z: 0.2614995}
+      rotation: {x: 0.37192258, y: -0.15692663, z: 0.76643395, w: 0.4996265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristFKCG
+      position: {x: -0, y: 0, z: -3.4694467e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristIKLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.4996265, y: 0.76643395, z: 0.15692663, w: -0.37192258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.3184298, y: 1.0944207, z: 0.06261887}
+      rotation: {x: 0.8411494, y: -0.4992388, z: 0.13503312, w: 0.15809642}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowFKCG
+      position: {x: -0, y: 3.5527135e-16, z: -1.040834e-18}
+      rotation: {x: 8.5280025e-17, y: 0.81915206, z: -8.5280025e-17, w: 0.57357645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderFKCG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.14222981, y: 1.4202688, z: -0.0027722793}
+      rotation: {x: 0.10549969, y: -0.03881886, z: -0.03881886, w: 0.9929028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderFKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rShoulderFKCG2
+      position: {x: 0.04245249, y: -0.095000155, z: -0.032124218}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: -1.6869839e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderFKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rShoulderFKCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.25973606, y: 0.16011979, z: 0.44274876, w: 0.8431325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderFKOrientLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rShoulderFKCG
+      position: {x: -0, y: 0, z: -1.7694179e-17}
+      rotation: {x: -0.07123179, y: -0.15940046, z: -0.11617733, w: 0.97776294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rClavicleCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.13133918, y: 1.325148, z: -0.009986057}
+      rotation: {x: 0.9929028, y: -0.03881886, z: 0.03881886, w: -0.10549969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rClavicleC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rClavicleCG
+      position: {x: -0, y: 0, z: 3.4694467e-19}
+      rotation: {x: 0, y: -0.38268346, z: -0, w: 0.92387956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rArmIKFKG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.13133918, y: 1.325148, z: -0.009986057}
+      rotation: {x: 0.93217796, y: 0.0045090364, z: -0.34410354, w: -0.11232434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rArmIKFKG
+      position: {x: 0.064576976, y: 1.7763567e-16, z: 1.5543121e-16}
+      rotation: {x: -0.070585474, y: 0.47050893, z: 0.5084359, w: 0.71772695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rArmIKFKG
+      position: {x: 0.064576976, y: 0, z: -3.1225022e-18}
+      rotation: {x: -0.11026026, y: 0.22680576, z: -0.08008607, w: 0.96435887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rShoulderJIK
+      position: {x: 0.29631025, y: 0, z: 1.0858709e-13}
+      rotation: {x: 0.000028974626, y: 0.31362984, z: 0.000009570166, w: 0.9495454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowJIK
+      position: {x: 0.27365205, y: 0, z: -3.4694467e-19}
+      rotation: {x: -0.06113384, y: -0.20496741, z: 0.0761399, w: 0.9738859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLegIKFKG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.05871557, y: 0.8532229, z: -0.095897764}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLegIKFKG
+      position: {x: 0.09187654, y: -0.05231241, z: -2.664535e-16}
+      rotation: {x: 0.50059354, y: -0.5005562, z: 0.49938372, w: -0.49946526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLegIKFKG
+      position: {x: 0.09187654, y: -0.05231241, z: -1.2490009e-17}
+      rotation: {x: 0.63848895, y: -0.20862527, z: 0.72906893, w: -0.13139938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rHipJIK
+      position: {x: 0.3818881, y: 4.9266143e-17, z: 1.11022296e-17}
+      rotation: {x: -0.0003045513, y: 0.00016656771, z: 0.38355708, w: 0.9235171}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeJIK
+      position: {x: 0.40282643, y: -1.2045919e-15, z: 1.5543121e-16}
+      rotation: {x: 0.044869814, y: 0.009304524, z: -0.4311168, w: 0.90113175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rBallJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleJIK
+      position: {x: 0.15973495, y: -5.5511148e-17, z: 0}
+      rotation: {x: -0.000000004684171, y: 0.0000000020370803, z: -0.39880586, w: 0.9170354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rToeJIK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rBallJIK
+      position: {x: 0.14832915, y: 5.5457884e-17, z: 8.326672e-16}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJFKG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.2570803, y: 1.2720951, z: 0.2614995}
+      rotation: {x: 0.4996265, y: 0.76643395, z: 0.15692663, w: -0.37192258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJFKG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJFKG2
+      position: {x: -0, y: -5.32907e-16, z: 1.7694178e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJFKG1
+      position: {x: -0, y: 1.7763567e-16, z: -4.4408918e-17}
+      rotation: {x: 1, y: 0, z: -0, w: 5.0532154e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowJFKG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.3184298, y: 1.0944207, z: 0.06261887}
+      rotation: {x: -0.15806542, y: -0.13492237, z: -0.4992607, w: 0.84115994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowJFKG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowJFKG2
+      position: {x: -8.8817837e-17, y: 5.32907e-16, z: -3.0878077e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowJFKG1
+      position: {x: 8.8817837e-17, y: 1.7763567e-16, z: 6.661338e-17}
+      rotation: {x: 0.57348347, y: -0.00002509372, z: 0.81921715, w: -0.00001736232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJIKDummyG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.46468136, y: 1.3865364, z: -0.11451308}
+      rotation: {x: 0.061074153, y: -0.2047492, z: 0.076140255, w: 0.97393554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJIKDummyG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJIKDummyG2
+      position: {x: 0.27365205, y: -0.000000095367426, z: 0.00006212171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJIKDummy
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJIKDummyG1
+      position: {x: -0, y: 0, z: -8.326672e-18}
+      rotation: {x: 0.97393554, y: -0.076140255, z: -0.2047492, w: 0.061074153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rPalmCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.24762395, y: 1.2994871, z: 0.29217404}
+      rotation: {x: 0.37192258, y: -0.15692665, z: 0.76643395, w: 0.4996265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rPalmC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmC
+      position: {x: 0.06292234, y: 1.9539924e-15, z: -0.035565812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger1J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmC
+      position: {x: 0.06292234, y: 0.036800575, z: -0.035565812}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger1J2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmC
+      position: {x: 0.02579357, y: 0.036800575, z: -0.035565812}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger1J3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmC
+      position: {x: 0.06367194, y: 3.9079847e-15, z: 0.014469472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger2J1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmC
+      position: {x: 0.06367194, y: 0.037894584, z: 0.014469472}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger2J2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmC
+      position: {x: 0.027965378, y: 0.037894584, z: 0.014469472}
+      rotation: {x: 0, y: 0, z: 1, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger2J3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rArmLengthOriginLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.18062076, y: 1.3306828, z: -0.0513488}
+      rotation: {x: 7.135978e-17, y: -0.4745327, z: 0.8751436, w: -0.09456514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rArmLengthEndLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rArmLengthOriginLctr
+      position: {x: -0.5412517, y: -8.8817837e-17, z: 1.7763567e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleJFKG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.2264794, y: 0.47893536, z: -0.26543772}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleJFKG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleJFKG2
+      position: {x: -0.000045405595, y: -0.40218621, z: -0.02270203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleJFKG1
+      position: {x: 4.107825e-16, y: -8.8817837e-17, z: -1.2767565e-16}
+      rotation: {x: 0.648442, y: -0.28199834, z: 0.648442, w: -0.28199834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rBallJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleJFK
+      position: {x: 0.15973495, y: -1.7141843e-14, z: 4.4408918e-17}
+      rotation: {x: 0, y: 0, z: -0.39880586, w: 0.9170354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rToeJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rBallJFK
+      position: {x: 0.14832915, y: 5.5457884e-17, z: 8.326672e-16}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeJFKG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.15843101, y: 0.8207681, z: -0.109366424}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeJFKG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeJFKG2
+      position: {x: 0.000045369834, y: -0.38188806, z: -0.000016922197}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeJFK
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeJFKG1
+      position: {x: 1.7763567e-16, y: 0, z: 1.31838974e-17}
+      rotation: {x: -0.48644397, y: 0.51464796, z: -0.48496786, w: 0.5131432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLegLengthOriginLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.15843101, y: 0.8207681, z: -0.109366424}
+      rotation: {x: 0.98095167, y: 1.0610453e-17, z: 0.15289558, w: 0.11982019}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLegLengthEndLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLegLengthOriginLctr
+      position: {x: 2.2204459e-17, y: 0.724742, z: -1.0547118e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristFKLctrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.7121921, y: 1.4202687, z: -0.0027722805}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristFKLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristFKLctrG
+      position: {x: -0.4551118, y: 0.14817365, z: -0.2642718}
+      rotation: {x: -0.4996265, y: 0.76643395, z: 0.15692663, w: 0.37192258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleFKLctrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.0918765, y: 0.11683624, z: -0.01899725}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleFKLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleFKLctrG
+      position: {x: 0.20647433, y: -0.011551341, z: 0.43142664}
+      rotation: {x: 0.21222584, y: 0.025488665, z: -0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rToeIKCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.1318765, y: -8.8817837e-16, z: 0.061002746}
+      rotation: {x: 0.99455464, y: 6.5231504e-18, z: 0.10421702, w: 5.954667e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rToeIKC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rToeIKCG
+      position: {x: 6.733502e-14, y: 2.104712e-16, z: -0.25725368}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rBallSwivel
+      parentName: Ultimate_Bony_v1_0_5:Bony_rToeIKC
+      position: {x: -6.727951e-14, y: -1.971318e-16, z: 0.14832915}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFootInTilt
+      parentName: Ultimate_Bony_v1_0_5:Bony_rBallSwivel
+      position: {x: -0.059068836, y: -8.8817837e-16, z: 1.8207657e-15}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFootOutTilt
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootInTilt
+      position: {x: 0.14127062, y: 0, z: 5.5511148e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFootHeelPivot
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootOutTilt
+      position: {x: -0.0822018, y: 0, z: -0.16548279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFootBallPivot
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootHeelPivot
+      position: {x: 2.2204459e-17, y: -8.8817837e-16, z: 0.16548279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rBallIKHandle
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootBallPivot
+      position: {x: 3.6637357e-16, y: 1.5777217e-31, z: 0}
+      rotation: {x: 0.648442, y: -0.28199834, z: 0.648442, w: -0.28199834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLegIKHandle
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootBallPivot
+      position: {x: 2.8865798e-16, y: 0.11683624, z: -0.108924516}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeTargetLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootBallPivot
+      position: {x: -8.8817837e-17, y: 0.11683624, z: -0.108924516}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFootToePivot
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootHeelPivot
+      position: {x: 2.2204459e-17, y: -8.8817837e-16, z: 0.16548279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rToeIKHandle
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFootToePivot
+      position: {x: 6.7612575e-14, y: -1.7896672e-16, z: 0.14832915}
+      rotation: {x: 0.7071068, y: -1.4731799e-13, z: 0.7071068, w: 1.4731799e-13}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.18062076, y: 1.3306828, z: -0.0513488}
+      rotation: {x: 2.6677394e-17, y: -0.84019417, z: -0.15315889, w: 0.5202078}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rShoulderIKLockLctr
+      position: {x: -0.5622002, y: -1.7763567e-16, z: -1.3322676e-16}
+      rotation: {x: 1.0098837e-16, y: 0.82451797, z: 0.32612914, w: -0.46239582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowIKLockLctr
+      position: {x: -0.6054022, y: 1.7763567e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.15843101, y: 0.8207681, z: -0.109366424}
+      rotation: {x: -5.600693e-17, y: 0.5759069, z: 0.34021422, w: 0.74336106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rHipIKLockLctr
+      position: {x: -0.6205253, y: 1.7763567e-16, z: -8.8817837e-17}
+      rotation: {x: -4.436891e-17, y: -0.3618422, z: 0.6911877, w: 0.6255636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleIKLockLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeIKLockLctr
+      position: {x: -0.53284484, y: 4.4408918e-16, z: 3.774758e-16}
+      rotation: {x: -0.23257922, y: -0.012218938, z: -0.042351015, w: 0.9715781}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleIKLctrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.29835078, y: 0.12838794, z: -0.45042375}
+      rotation: {x: 0.97310084, y: 0.08593827, z: 0.025488665, w: -0.21222584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleIKLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleIKLctrG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.22002639, y: 0.07606379, z: 0.06335274, w: 0.9704582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spineLengthC
+      parentName: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_hairSystemFollicles
+      parentName: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spine01F
+      parentName: Ultimate_Bony_v1_0_5:Bony_hairSystemFollicles
+      position: {x: 0.049500264, y: 0.9662171, z: -0.06609946}
+      rotation: {x: 0.04598824, y: -0.041621346, z: 0.041682426, w: 0.99720377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spine02F
+      parentName: Ultimate_Bony_v1_0_5:Bony_hairSystemFollicles
+      position: {x: 0.052718714, y: 1.0851169, z: -0.0534357}
+      rotation: {x: 0.070204526, y: -0.042748693, z: 0.005384629, w: 0.9966017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spine03F
+      parentName: Ultimate_Bony_v1_0_5:Bony_hairSystemFollicles
+      position: {x: 0.049484443, y: 1.1953467, z: -0.037182074}
+      rotation: {x: 0.073435135, y: -0.04050288, z: -0.01854915, w: 0.9963046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ribbonBlend
+      parentName: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_lClusterG
+      parentName: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_lTopCluster
+      parentName: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_lClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_lBtmCluster
+      parentName: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_lClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_rClusterG
+      parentName: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_rTopCluster
+      parentName: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_rClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_rBtmCluster
+      parentName: Ultimate_Bony_v1_0_5:Bony_ribbonBlend_rClusterG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_NeckCurve
+      parentName: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Neck02CG
+      parentName: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      position: {x: 0.060410187, y: 1.4296525, z: 0.015566816}
+      rotation: {x: 0.17942423, y: -0.041611962, z: -0.035808492, w: 0.9822388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Neck02C
+      parentName: Ultimate_Bony_v1_0_5:Bony_Neck02CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      parentName: Ultimate_Bony_v1_0_5:BonyExtraNodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurveGuide
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurveGuide
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmMidClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.22340557, y: 1.2232099, z: 0.12580197}
+      rotation: {x: -0.44206962, y: 0.77884823, z: 0.08977852, w: 0.43578643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmMidClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.1597046, y: 1.2437587, z: -0.023556972}
+      rotation: {x: -0.17996047, y: 0.089542955, z: 0.41364837, w: 0.8879703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.22340557, y: 1.2232099, z: 0.12580197}
+      rotation: {x: -0.44206962, y: 0.77884823, z: 0.08977852, w: 0.43578643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.1597046, y: 1.2437587, z: -0.023556972}
+      rotation: {x: -0.17996047, y: 0.089542955, z: 0.41364837, w: 0.8879703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.2390951, y: 1.1814522, z: 0.073929906}
+      rotation: {x: -0.4420647, y: 0.7788492, z: 0.08976979, w: 0.43579143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.22340558, y: 1.2232099, z: 0.12580197}
+      rotation: {x: -0.4420696, y: 0.77884823, z: 0.089778565, w: 0.43578643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.20771605, y: 1.2649677, z: 0.17767408}
+      rotation: {x: -0.4420737, y: 0.7788474, z: 0.089785896, w: 0.43578216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.11216377, y: 1.2957911, z: -0.046366323}
+      rotation: {x: -0.17996049, y: 0.08954299, z: 0.4136484, w: 0.8879703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.15970458, y: 1.2437587, z: -0.02355697}
+      rotation: {x: -0.17996049, y: 0.089542955, z: 0.41364834, w: 0.8879703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.20724544, y: 1.1917262, z: -0.0007476179}
+      rotation: {x: -0.17996047, y: 0.089542925, z: 0.41364828, w: 0.8879704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurveGuide
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurveGuide
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmMidClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.28775504, y: 1.1832578, z: 0.16205919}
+      rotation: {x: 0.37184402, y: -0.15685709, z: 0.7664789, w: 0.49963784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmMidClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.24952526, y: 1.2125516, z: 0.0056350348}
+      rotation: {x: 0.841174, y: -0.49927738, z: 0.13483424, w: 0.15801308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.28775504, y: 1.1832578, z: 0.16205919}
+      rotation: {x: 0.37184402, y: -0.15685709, z: 0.7664789, w: 0.49963784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.24952526, y: 1.2125516, z: 0.0056350348}
+      rotation: {x: 0.841174, y: -0.49927738, z: 0.13483424, w: 0.15801308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.3030928, y: 1.138838, z: 0.11233774}
+      rotation: {x: 0.37184963, y: -0.1568486, z: 0.76648074, w: 0.4996336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.28775504, y: 1.1832578, z: 0.16205919}
+      rotation: {x: 0.37184408, y: -0.15685715, z: 0.76647896, w: 0.4996378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.27241725, y: 1.2276776, z: 0.21178068}
+      rotation: {x: 0.37183934, y: -0.15686427, z: 0.7664774, w: 0.49964136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.21507214, y: 1.2716187, z: -0.022857627}
+      rotation: {x: 0.841174, y: -0.49927735, z: 0.1348342, w: 0.15801306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.2495253, y: 1.2125517, z: 0.0056350324}
+      rotation: {x: 0.841174, y: -0.49927738, z: 0.13483422, w: 0.15801306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.28397843, y: 1.1534847, z: 0.034127694}
+      rotation: {x: 0.841174, y: -0.49927744, z: 0.13483427, w: 0.15801309}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurveGuide
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurveGuide
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegMidClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.109258406, y: 0.2929977, z: -0.079896465}
+      rotation: {x: 0.6489716, y: 0.2691632, z: 0.6094282, w: 0.3674021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegMidClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.05450618, y: 0.62279075, z: -0.042800106}
+      rotation: {x: 0.4178328, y: 0.5533201, z: 0.3311872, w: 0.6399748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.109258406, y: 0.2929977, z: -0.07989646}
+      rotation: {x: 0.6489716, y: 0.2691632, z: 0.6094282, w: 0.3674021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.05450618, y: 0.62279075, z: -0.042800106}
+      rotation: {x: 0.4178328, y: 0.5533201, z: 0.3311872, w: 0.6399748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.09794907, y: 0.37327996, z: -0.020153636}
+      rotation: {x: 0.64591223, y: 0.26411602, z: 0.6116325, w: 0.37275445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.109258406, y: 0.2929977, z: -0.079896465}
+      rotation: {x: 0.6489716, y: 0.2691632, z: 0.60942817, w: 0.3674021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.12056775, y: 0.2127154, z: -0.13963929}
+      rotation: {x: 0.6519851, y: 0.27418947, z: 0.6071834, w: 0.36202744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.03843722, y: 0.7074087, z: -0.083993144}
+      rotation: {x: 0.4178332, y: 0.5533195, z: 0.33118713, w: 0.639975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.05450594, y: 0.62279075, z: -0.04279995}
+      rotation: {x: 0.4178328, y: 0.5533201, z: 0.3311872, w: 0.6399748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0.0705746, y: 0.5381719, z: -0.0016062253}
+      rotation: {x: 0.41783148, y: 0.5533219, z: 0.3311874, w: 0.63997394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurveGuide
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurveGuide
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegMidClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.13032411, y: 0.31619942, z: 0.08962534}
+      rotation: {x: -0.41961306, y: 0.49290296, z: -0.5031828, w: 0.57251954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegMidClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.14360298, y: 0.668165, z: 0.004440108}
+      rotation: {x: 0.59277505, y: -0.29952085, z: 0.6701619, w: -0.33134297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.13032411, y: 0.31619942, z: 0.08962534}
+      rotation: {x: -0.41961306, y: 0.49290296, z: -0.5031828, w: 0.57251954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.14360298, y: 0.668165, z: 0.004440108}
+      rotation: {x: 0.59277505, y: -0.29952085, z: 0.6701619, w: -0.33134297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.12954791, y: 0.41588357, z: 0.10393704}
+      rotation: {x: -0.4261255, y: 0.4986186, z: -0.49751964, w: 0.567689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.13032411, y: 0.31619942, z: 0.08962535}
+      rotation: {x: -0.41961306, y: 0.49290296, z: -0.5031828, w: 0.57251954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.13110033, y: 0.21651532, z: 0.075313665}
+      rotation: {x: -0.4130473, y: 0.48712432, z: -0.50877917, w: 0.5772744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.1510171, y: 0.74446833, z: -0.05246446}
+      rotation: {x: 0.59277534, y: -0.29952082, z: 0.67016137, w: -0.33134338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.14360271, y: 0.6681651, z: 0.0044402224}
+      rotation: {x: 0.59277505, y: -0.29952085, z: 0.6701619, w: -0.33134297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_extraCurveNodesG
+      position: {x: 0.13618805, y: 0.59186125, z: 0.061345425}
+      rotation: {x: 0.592774, y: -0.29952085, z: 0.6701636, w: -0.33134153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurve3CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonylElbowCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.25474647, y: 1.1397291, z: 0.022023033}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: 0.4358673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmTopClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.35065815, y: 0.48952293, z: 0.28377712, w: 0.7462418}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmTopClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerArmTopClstrG
+      position: {x: -0.022804338, y: 3.5527135e-16, z: 2.081668e-18}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.19202736, y: 1.3067234, z: 0.2295434}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: 0.4358673}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerArmBtmClstrG
+      position: {x: 0.022804338, y: -3.5527135e-16, z: -2.081668e-18}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmTopGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.35065815, y: 0.48952293, z: 0.28377712, w: 0.7462418}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmTopGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerArmTopGuideClstrG
+      position: {x: -0.045608677, y: 7.105427e-16, z: 4.163336e-18}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmBtmGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.19202736, y: 1.3067234, z: 0.2295434}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.08984189, w: 0.4358673}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmBtmGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerArmBtmGuideClstrG
+      position: {x: 0.045608677, y: -5.32907e-16, z: -4.510281e-18}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.3227364, y: 0.95884013, z: -0.20260178}
+      rotation: {x: -0.4420638, y: 0.77884936, z: 0.08976804, w: 0.43579236}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowTopCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.2554835, y: 1.3910849, z: -0.29166308}
+      rotation: {x: 0.097544625, y: -0.42033514, z: -0.03550334, w: 0.90141165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonylUpperArmTopClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.06462542, y: 1.3478209, z: -0.06917449}
+      rotation: {x: 0.34560353, y: -0.41350597, z: 0.08339624, w: 0.83822197}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonylUpperArmTopClstr
+      parentName: Ultimate_Bony_v1_0_5:BonylUpperArmTopClstrG
+      position: {x: -0.02469252, y: 1.8776091e-13, z: 9.582691e-11}
+      rotation: {x: -1.6869334e-11, y: 0.00010482733, z: -0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.35065815, y: 0.48952293, z: 0.28377712, w: 0.7462418}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperArmBtmClstrG
+      position: {x: 0.02469252, y: 1.9113598e-13, z: 9.5845006e-11}
+      rotation: {x: -1.6869334e-11, y: 0.00010482733, z: -0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmTopGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.06462542, y: 1.3478209, z: -0.06917449}
+      rotation: {x: 0.34560353, y: -0.41350597, z: 0.08339624, w: 0.83822197}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmTopGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperArmTopGuideClstrG
+      position: {x: -0.04938504, y: 1.8776091e-13, z: 9.581786e-11}
+      rotation: {x: -1.6869334e-11, y: 0.00010482733, z: -0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmBtmGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.35065815, y: 0.48952293, z: 0.28377712, w: 0.7462418}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmBtmGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperArmBtmGuideClstrG
+      position: {x: 0.04938504, y: 1.9078071e-13, z: 9.5854054e-11}
+      rotation: {x: -1.6869334e-11, y: 0.00010482733, z: -0.00000016092496, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.35065815, y: 0.48952293, z: 0.28377712, w: 0.7462418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrElbowCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.31840405, y: 1.0944586, z: 0.062577}
+      rotation: {x: 0.37192258, y: -0.15692665, z: 0.76643395, w: 0.4996265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrLowerArmTopClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.6838176, y: -0.36986342, z: 0.50808203, w: 0.37073874}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrLowerArmTopClstr
+      parentName: Ultimate_Bony_v1_0_5:BonyrLowerArmTopClstrG
+      position: {x: 0.022804338, y: -5.32907e-16, z: -4.163336e-17}
+      rotation: {x: 1, y: -0.00000017078591, z: 0.00011350492, w: 0.000030514188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrLowerArmBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.2570803, y: 1.2720951, z: 0.2614995}
+      rotation: {x: 0.37192258, y: -0.15692665, z: 0.76643395, w: 0.4996265}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrLowerArmBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:BonyrLowerArmBtmClstrG
+      position: {x: -0.022804338, y: 3.5527135e-16, z: -3.8857802e-17}
+      rotation: {x: 1, y: -0.00000017078591, z: 0.00011350492, w: 0.000030514188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrLowerArmTopGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.6838176, y: -0.36986342, z: 0.50808203, w: 0.37073874}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrLowerArmTopGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:BonyrLowerArmTopGuideClstrG
+      position: {x: 0.045608677, y: -7.105427e-16, z: -4.232725e-17}
+      rotation: {x: 1, y: -0.00000017078591, z: 0.00011350492, w: 0.000030514188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrLowerArmBtmGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.2570803, y: 1.2720951, z: 0.2614995}
+      rotation: {x: 0.37192258, y: -0.15692665, z: 0.76643395, w: 0.4996265}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrLowerArmBtmGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:BonyrLowerArmBtmGuideClstrG
+      position: {x: -0.045608677, y: 7.105427e-16, z: -4.232725e-17}
+      rotation: {x: 1, y: -0.00000017078591, z: 0.00011350492, w: 0.000030514188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.38485903, y: 0.9020349, z: -0.15272893}
+      rotation: {x: 0.37185082, y: -0.15684661, z: 0.76648104, w: 0.49963284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowTopCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.045506887, y: 1.3052863, z: 0.13844338}
+      rotation: {x: 0.93217796, y: 0.0045090364, z: -0.34410354, w: -0.11232434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmTopClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.18062076, y: 1.3306828, z: -0.0513488}
+      rotation: {x: 0.84279335, y: -0.10937489, z: -0.3262893, w: -0.4138501}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmTopClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperArmTopClstrG
+      position: {x: 0.02469252, y: -8.8817837e-16, z: 8.763822e-15}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: 1.6869516e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.6838176, y: -0.36986342, z: 0.50808203, w: 0.37073874}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperArmBtmClstrG
+      position: {x: -0.02469252, y: -5.32907e-16, z: -9.391792e-15}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: 1.6869738e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmTopGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.18062076, y: 1.3306828, z: -0.0513488}
+      rotation: {x: -5.5427144e-18, y: 0.34109288, z: 0.04564221, w: 0.9389209}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmTopGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperArmTopGuideClstrG
+      position: {x: 0.04938504, y: -8.8817837e-16, z: 1.7812834e-14}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: 1.6869516e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmBtmGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.6838176, y: -0.36986342, z: 0.50808203, w: 0.37073874}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmBtmGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperArmBtmGuideClstrG
+      position: {x: -0.04938504, y: 0, z: -1.8438374e-14}
+      rotation: {x: 1, y: -0.00000016092496, z: -0.00010482733, w: 1.6869738e-11}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.6838176, y: -0.36986342, z: 0.50808203, w: 0.37073874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.1318765, y: 0.530304, z: -0.13636383}
+      rotation: {x: 0.53768784, y: 0.4592296, z: 0.53768784, w: 0.4592296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegTopClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.54429185, y: 0.42909563, z: 0.48286283, w: 0.5352259}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegTopClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerLegTopClstrG
+      position: {x: -0.03356887, y: 2.7977619e-14, z: 7.7715604e-17}
+      rotation: {x: 0.5133574, y: 0.48516992, z: 0.514443, w: -0.48623335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.1318765, y: 0.13243733, z: -0.199379}
+      rotation: {x: 0.5376878, y: 0.45922962, z: 0.5376878, w: 0.4592296}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerLegBtmClstrG
+      position: {x: 0.03356887, y: 6.727951e-15, z: -3.330669e-17}
+      rotation: {x: 0.5133574, y: 0.48516992, z: 0.514443, w: -0.48623335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegTopGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.54429185, y: 0.42909563, z: 0.48286283, w: 0.5352259}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegTopGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerLegTopGuideClstrG
+      position: {x: -0.06713774, y: 2.6112444e-14, z: 5.5511148e-17}
+      rotation: {x: 0.5133574, y: 0.48516992, z: 0.514443, w: -0.48623335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegBtmGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.1318765, y: 0.13243733, z: -0.199379}
+      rotation: {x: 0.5376878, y: 0.45922962, z: 0.5376878, w: 0.4592296}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegBtmGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lLowerLegBtmGuideClstrG
+      position: {x: 0.06713774, y: 8.260059e-15, z: -4.4408918e-17}
+      rotation: {x: 0.5133574, y: 0.48516992, z: 0.514443, w: -0.48623335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.04377695, y: 0.75799906, z: 0.26611775}
+      rotation: {x: 0.6426912, y: 0.25889015, z: 0.61387384, w: 0.37826294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeTopCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.045634393, y: 0.45017588, z: -0.28124422}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegTopClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.022369131, y: 0.7920228, z: -0.12518439}
+      rotation: {x: 0.50846577, y: 0.35965085, z: 0.67800236, w: 0.3904185}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegTopClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperLegTopClstrG
+      position: {x: -0.031824004, y: 6.081385e-14, z: -1.4432899e-16}
+      rotation: {x: -0.4996768, y: -0.49962044, z: -0.5003357, w: 0.50036657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.54429185, y: 0.42909563, z: 0.48286283, w: 0.5352259}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperLegBtmClstrG
+      position: {x: 0.031824004, y: -0.0000005938087, z: -0.0000010087006}
+      rotation: {x: -0.49948147, y: -0.49939993, z: -0.50054, w: 0.50057733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegTopGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.022369131, y: 0.7920228, z: -0.12518439}
+      rotation: {x: 0, y: -0.31873012, z: 0.6981741, w: 0.64106476}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegTopGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperLegTopGuideClstrG
+      position: {x: -0.06364801, y: 5.868222e-14, z: -1.3322676e-16}
+      rotation: {x: -0.4996768, y: -0.49962044, z: -0.5003357, w: 0.50036657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegBtmGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.54429185, y: 0.42909563, z: 0.48286283, w: 0.5352259}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegBtmGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lUpperLegBtmGuideClstrG
+      position: {x: 0.06364801, y: -0.0000011876174, z: -0.0000020174011}
+      rotation: {x: -0.49948147, y: -0.49939993, z: -0.50054, w: 0.50057733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.54429185, y: 0.42909563, z: 0.48286283, w: 0.5352259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.1318766, y: 0.51966244, z: 0.06100221}
+      rotation: {x: -0.44516906, y: 0.4451685, z: -0.54938614, w: 0.5493854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegTopClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: 0.52859974, y: -0.40247506, z: 0.59868103, w: -0.44741163}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegTopClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerLegTopClstrG
+      position: {x: 0.03356887, y: -1.8302026e-14, z: -9.992007e-17}
+      rotation: {x: 0.48623335, y: -0.5144429, z: 0.4851699, w: 0.5133574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.1318765, y: 0.11683641, z: 0.061002716}
+      rotation: {x: -0.44516906, y: 0.4451685, z: -0.54938614, w: 0.5493854}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerLegBtmClstrG
+      position: {x: -0.03356887, y: 8.104628e-16, z: -1.11022296e-17}
+      rotation: {x: 0.48623335, y: -0.5144429, z: 0.4851699, w: 0.5133574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegTopGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: 0.52859974, y: -0.40247506, z: 0.59868103, w: -0.44741163}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegTopGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerLegTopGuideClstrG
+      position: {x: 0.06713774, y: -1.7147394e-14, z: -8.8817837e-17}
+      rotation: {x: 0.48623335, y: -0.5144429, z: 0.4851699, w: 0.5133574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegBtmGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.1318765, y: 0.11683641, z: 0.061002716}
+      rotation: {x: -0.44516906, y: 0.4451685, z: -0.54938614, w: 0.5493854}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegBtmGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rLowerLegBtmGuideClstrG
+      position: {x: -0.06713774, y: 1.0769163e-15, z: -1.11022296e-17}
+      rotation: {x: 0.48623335, y: -0.5144429, z: 0.4851699, w: 0.5133574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.12585343, y: 0.89356464, z: 0.1725068}
+      rotation: {x: -0.43277442, y: 0.50444424, z: -0.49162817, w: 0.5626225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeTopCurveLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.09042749, y: 1.1626152, z: 0.046693407}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegTopClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.15843101, y: 0.8207681, z: -0.109366424}
+      rotation: {x: -0.39275277, y: 0.5271581, z: -0.3647855, w: 0.6593794}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegTopClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperLegTopClstrG
+      position: {x: 0.031824004, y: 3.792036e-14, z: 3.330669e-17}
+      rotation: {x: 0.5003827, y: -0.5003519, z: 0.49960425, w: 0.49966058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegBtmClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: 0.52859974, y: -0.40247506, z: 0.59868103, w: -0.44741163}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegBtmClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperLegBtmClstrG
+      position: {x: -0.031824004, y: 0.0000005937476, z: 0.0000010098136}
+      rotation: {x: 0.50059354, y: -0.5005562, z: 0.49938372, w: 0.49946526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegTopGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.15843101, y: 0.8207681, z: -0.109366424}
+      rotation: {x: -5.4246362e-17, y: 0.26622826, z: -0.58316946, w: 0.76748675}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegTopGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperLegTopGuideClstrG
+      position: {x: 0.06364801, y: 3.6321637e-14, z: 2.2204459e-17}
+      rotation: {x: 0.5003827, y: -0.5003519, z: 0.49960425, w: 0.49966058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegBtmGuideClstrG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: 0.52859974, y: -0.40247506, z: 0.59868103, w: -0.44741163}
+      scale: {x: 1e-12, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegBtmGuideClstr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rUpperLegBtmGuideClstrG
+      position: {x: -0.06364801, y: 0.0000011874952, z: 0.0000020196271}
+      rotation: {x: 0.50059354, y: -0.5005562, z: 0.49938372, w: 0.49946526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeCurveCG
+      parentName: Ultimate_Bony_v1_0_5:Bony_curveNodesG
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: 0.52859974, y: -0.40247506, z: 0.59868103, w: -0.44741163}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeCurveC
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeCurveCG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_ROOTJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.05871557, y: 0.8532229, z: -0.095897764}
+      rotation: {x: 0.21222584, y: -0.025488665, z: 0.08593827, w: 0.97310084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_ROOTJ
+      position: {x: -0.09187654, y: -0.05231241, z: 5.5511148e-18}
+      rotation: {x: 0.32676595, y: 0.5891293, z: 0.13920127, w: 0.72579175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lHipJ
+      position: {x: -0.3818881, y: -6.52256e-17, z: 3.330669e-17}
+      rotation: {x: -0.00030812537, y: 0.00022795849, z: 0.5150378, w: 0.8571674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lKneeJ
+      position: {x: -0.40282643, y: 2.553513e-16, z: 3.330669e-17}
+      rotation: {x: 0.021293309, y: 0.08386704, z: -0.5730002, w: 0.81497467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lBallJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleJ
+      position: {x: -0.15973495, y: 7.7715604e-17, z: 2.2204459e-17}
+      rotation: {x: -3.972346e-11, y: 7.472506e-11, z: -0.46952623, w: 0.88291854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lToeJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lBallJ
+      position: {x: -0.14832915, y: -4.334918e-17, z: 6.106226e-16}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLegUpLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lHipJ
+      position: {x: -0.3818881, y: -6.52256e-17, z: 3.330669e-17}
+      rotation: {x: -0.0003692974, y: -0.00005003016, z: 0.25363877, w: 0.967299}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_ROOTJ
+      position: {x: 0.09187654, y: -0.05231241, z: -1.2490009e-17}
+      rotation: {x: 0.63848895, y: -0.20862526, z: 0.729069, w: -0.13139938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rHipJ
+      position: {x: 0.3818881, y: 4.9266143e-17, z: 1.11022296e-17}
+      rotation: {x: -0.0003045513, y: 0.0001665677, z: 0.38355705, w: 0.9235171}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rKneeJ
+      position: {x: 0.40282643, y: -1.2045919e-15, z: 1.5543121e-16}
+      rotation: {x: 0.044869814, y: 0.009304524, z: -0.4311168, w: 0.90113175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rBallJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleJ
+      position: {x: 0.15973495, y: -5.5511148e-17, z: 0}
+      rotation: {x: -0.0000000046841704, y: 0.0000000020370803, z: -0.39880586, w: 0.9170354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rToeJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rBallJ
+      position: {x: 0.14832915, y: 5.5457884e-17, z: 8.326672e-16}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLegUpLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rHipJ
+      position: {x: 0.3818881, y: 4.9266143e-17, z: 0}
+      rotation: {x: -0.0003398443, y: -0.000018651195, z: 0.18172143, w: 0.98335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeCurveJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: 0.52859974, y: -0.40247506, z: 0.59868103, w: -0.44741163}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rHipCurveJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.15843101, y: 0.8207681, z: -0.109366424}
+      rotation: {x: 0.67016107, y: 0.33134365, z: -0.59277546, w: -0.29952088}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurveJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.1510171, y: 0.74446833, z: -0.05246446}
+      rotation: {x: 0.59277534, y: -0.29952082, z: 0.67016137, w: -0.33134338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurveJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.14360271, y: 0.6681651, z: 0.004440223}
+      rotation: {x: 0.59277505, y: -0.29952085, z: 0.6701619, w: -0.33134297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperLegCurveJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.13618805, y: 0.59186125, z: 0.061345425}
+      rotation: {x: 0.592774, y: -0.29952085, z: 0.6701636, w: -0.33134153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurveJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.12954791, y: 0.41588357, z: 0.10393704}
+      rotation: {x: -0.4261255, y: 0.4986186, z: -0.49751964, w: 0.567689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurveJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.13032411, y: 0.31619942, z: 0.08962535}
+      rotation: {x: -0.41961306, y: 0.49290296, z: -0.5031828, w: 0.57251954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerLegCurveJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.13110033, y: 0.21651532, z: 0.075313665}
+      rotation: {x: -0.4130473, y: 0.48712432, z: -0.50877917, w: 0.5772744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowCurveJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.6838176, y: -0.36986342, z: 0.50808203, w: 0.37073874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurveJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.11216377, y: 1.2957911, z: -0.046366323}
+      rotation: {x: -0.17996049, y: 0.08954299, z: 0.4136484, w: 0.8879703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurveJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.15970458, y: 1.2437587, z: -0.02355697}
+      rotation: {x: -0.17996049, y: 0.089542955, z: 0.41364834, w: 0.8879703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperArmCurveJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.20724544, y: 1.1917262, z: -0.0007476179}
+      rotation: {x: -0.17996047, y: 0.089542925, z: 0.41364828, w: 0.8879704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurveJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.2390951, y: 1.1814522, z: 0.073929906}
+      rotation: {x: -0.4420647, y: 0.7788492, z: 0.08976979, w: 0.43579143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurveJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.22340558, y: 1.2232099, z: 0.12580197}
+      rotation: {x: -0.4420696, y: 0.77884823, z: 0.089778565, w: 0.43578643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerArmCurveJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.20771605, y: 1.2649677, z: 0.17767408}
+      rotation: {x: -0.4420737, y: 0.7788474, z: 0.089785896, w: 0.43578216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spine01J
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.049500264, y: 0.9662171, z: -0.06609946}
+      rotation: {x: 0.04598824, y: -0.041621346, z: 0.041682426, w: 0.99720377}
+      scale: {x: 0.95628244, y: 1.0457162, z: 0.95628244}
+    - name: Ultimate_Bony_v1_0_5:Bony_spine02J
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.052718714, y: 1.0851169, z: -0.0534357}
+      rotation: {x: 0.070204526, y: -0.042748693, z: 0.005384629, w: 0.9966017}
+      scale: {x: 0.95628244, y: 1.0457162, z: 0.95628244}
+    - name: Ultimate_Bony_v1_0_5:Bony_spine03J
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.049484443, y: 1.1953467, z: -0.037182074}
+      rotation: {x: 0.073435135, y: -0.04050288, z: -0.01854915, w: 0.9963046}
+      scale: {x: 0.95628244, y: 1.0457162, z: 0.95628244}
+    - name: Ultimate_Bony_v1_0_5:Bony_Neck02J
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.060410187, y: 1.4296525, z: 0.015566816}
+      rotation: {x: 0.17942423, y: -0.041611962, z: -0.035808492, w: 0.9822388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Spine04J
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.05195946, y: 1.3034886, z: -0.01867506}
+      rotation: {x: -0.41378555, y: 0.5425252, z: -0.49141294, w: 0.541259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lClavicleJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Spine04J
+      position: {x: -0.0285026, y: 0.0018437107, z: -0.077652834}
+      rotation: {x: -0.6516076, y: 0.6539232, z: -0.30274063, w: -0.23693901}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lClavicleJ
+      position: {x: -0.064576976, y: 0, z: 6.9388935e-18}
+      rotation: {x: -0.07814337, y: 0.4879202, z: 0.4713026, w: 0.7305487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lShoulderJ
+      position: {x: -0.29631025, y: -1.7763567e-16, z: -1.08550315e-13}
+      rotation: {x: 0.000017496754, y: 0.8192772, z: 0.000024999568, w: 0.5733976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJDummy
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowJ
+      position: {x: -0.27365205, y: 0, z: 3.4694467e-19}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lForearmJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lElbowJ
+      position: {x: -0.13682602, y: 3.3068344e-19, z: -2.6645354e-16}
+      rotation: {x: 0.000000013957694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonylArmUpLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lShoulderJ
+      position: {x: -0.29643604, y: 3.5527135e-16, z: -0.5999623}
+      rotation: {x: 0.00000007429191, y: 0.46184158, z: -0.00000014271882, w: 0.8869624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rClavicleJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Spine04J
+      position: {x: -0.0285026, y: 0.0018437107, z: 0.077652834}
+      rotation: {x: 0.6425405, y: 0.6638487, z: 0.26614898, w: -0.27497512}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rClavicleJ
+      position: {x: 0.064576976, y: -1.7763567e-16, z: 6.9388935e-18}
+      rotation: {x: -0.070585474, y: 0.47050893, z: 0.5084359, w: 0.71772695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rShoulderJ
+      position: {x: 0.29631025, y: 0, z: 1.0858709e-13}
+      rotation: {x: 0.000017496774, y: 0.8192772, z: 0.000024999596, w: 0.5733976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJDummy
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowJ
+      position: {x: 0.27365205, y: 0, z: -3.4694467e-19}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rForearmJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rElbowJ
+      position: {x: 0.13682602, y: 3.3610385e-19, z: 1.776357e-16}
+      rotation: {x: 1, y: -0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:BonyrArmUpLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rShoulderJ
+      position: {x: 0.29642344, y: 3.5527135e-16, z: 0.5399623}
+      rotation: {x: -0.00000007435177, y: 0.46184158, z: 0.00000014274998, w: 0.8869624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Neck01J
+      parentName: Ultimate_Bony_v1_0_5:Bony_Spine04J
+      position: {x: -0.08698207, y: -0.0028382384, z: 1.11022296e-17}
+      rotation: {x: 1.0830147e-32, y: 2.220446e-16, z: 0.09100343, w: 0.99585056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_HeadJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.06286501, y: 1.4709872, z: 0.0313138}
+      rotation: {x: -0.4048827, y: 0.54920125, z: -0.48252043, w: 0.54920125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_HeadTipJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_HeadJ
+      position: {x: -0.27488595, y: 4.9960035e-17, z: 9.1555414e-17}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeCurveJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.54429185, y: 0.42909563, z: 0.48286283, w: 0.5352259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lHipCurveJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.022369131, y: 0.7920228, z: -0.12518439}
+      rotation: {x: 0.41783336, y: 0.5533193, z: 0.3311871, w: 0.63997513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurveJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.03843722, y: 0.7074087, z: -0.083993144}
+      rotation: {x: 0.4178332, y: 0.5533195, z: 0.33118713, w: 0.639975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurveJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.05450594, y: 0.62279075, z: -0.04279995}
+      rotation: {x: 0.4178328, y: 0.5533201, z: 0.3311872, w: 0.6399748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lUpperLegCurveJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.0705746, y: 0.5381719, z: -0.0016062253}
+      rotation: {x: 0.41783148, y: 0.5533219, z: 0.3311874, w: 0.63997394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurveJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.09794907, y: 0.37327996, z: -0.020153636}
+      rotation: {x: 0.64591223, y: 0.26411602, z: 0.6116325, w: 0.37275445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurveJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.109258406, y: 0.2929977, z: -0.079896465}
+      rotation: {x: 0.6489716, y: 0.2691632, z: 0.60942817, w: 0.3674021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lLowerLegCurveJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.12056775, y: 0.2127154, z: -0.13963929}
+      rotation: {x: 0.6519851, y: 0.27418947, z: 0.6071834, w: 0.36202744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowCurveJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.35065815, y: 0.48952293, z: 0.28377712, w: 0.7462418}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lShoulderCurveJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: -0.06462542, y: 1.3478209, z: -0.06917449}
+      rotation: {x: -0.17996055, y: 0.08954308, z: 0.41364828, w: 0.8879703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rShoulderCurveJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.18062076, y: 1.3306828, z: -0.0513488}
+      rotation: {x: -0.13483426, y: 0.15801312, z: 0.84117407, w: 0.49927726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurveJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.21507214, y: 1.2716187, z: -0.022857627}
+      rotation: {x: 0.841174, y: -0.49927735, z: 0.1348342, w: 0.15801306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurveJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.2495253, y: 1.2125517, z: 0.005635032}
+      rotation: {x: 0.841174, y: -0.49927738, z: 0.13483422, w: 0.15801306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rUpperArmCurveJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.28397843, y: 1.1534847, z: 0.034127694}
+      rotation: {x: 0.841174, y: -0.49927744, z: 0.13483427, w: 0.15801309}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurveJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.3030928, y: 1.138838, z: 0.11233774}
+      rotation: {x: 0.37184963, y: -0.1568486, z: 0.76648074, w: 0.4996336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurveJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.28775504, y: 1.1832578, z: 0.16205919}
+      rotation: {x: 0.37184408, y: -0.15685715, z: 0.76647896, w: 0.4996378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rLowerArmCurveJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_Skeleton_Grp
+      position: {x: 0.27241725, y: 1.2276776, z: 0.21178068}
+      rotation: {x: 0.37183934, y: -0.15686427, z: 0.7664774, w: 0.49964136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowTwistLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.44205916, y: 0.7788503, z: 0.089759775, w: 0.43579704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.4420638, y: 0.77884936, z: 0.08976804, w: 0.43579236}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristTwistLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristAimLctr
+      position: {x: -0.27365205, y: 3.9079847e-15, z: 0}
+      rotation: {x: -0.000030500229, y: -0.00011350492, z: -0.00000017078433, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowTwist75Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.38210818, y: 0.5753533, z: 0.23975615, w: 0.68226016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowTwist50Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.40806064, y: 0.6529059, z: 0.19228569, w: 0.6084625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lElbowTwist25Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.4281422, y: 0.7210648, z: 0.14204873, w: 0.52591074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowTwistLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.76648265, y: -0.49962902, z: -0.37185594, w: -0.15683873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.37185082, y: -0.15684661, z: 0.76648104, w: 0.49963284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristTwistLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristAimLctr
+      position: {x: 0.27365205, y: -3.9079847e-15, z: 0}
+      rotation: {x: -0.000030514188, y: -0.00011350492, z: -0.00000017078591, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowTwist75Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.6180623, y: -0.3228183, z: 0.586305, w: 0.41235146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowTwist50Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.54341465, y: -0.27112865, z: 0.65609264, w: 0.44803149}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rElbowTwist25Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.4609487, y: -0.21553817, z: 0.71644074, w: 0.4772655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeTwistLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.6428356, y: 0.25909448, z: 0.61377656, w: 0.3780356}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.6428605, y: 0.2591349, z: 0.61375946, w: 0.37799323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lAnkleTwistLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_lAnkleAimLctr
+      position: {x: -0.40282676, y: 0.00000016875103, z: 0.0000000632047}
+      rotation: {x: 0.050544634, y: 0.07023052, z: -0.23450103, w: 0.9682573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeTwist75Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.5734156, y: 0.3893476, z: 0.51970154, w: 0.49951306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeTwist50Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.59963757, y: 0.34762928, z: 0.5539103, w: 0.46127233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lKneeTwist25Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: -0.08664034, y: 0.45355803, z: 0.03958607}
+      rotation: {x: 0.62282497, y: 0.30415168, z: 0.58531594, w: 0.42069727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeTwistLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: -0.4918114, y: -0.5628015, z: 0.43256012, w: 0.5042498}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleAimLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: -0.43254256, y: 0.50423443, z: -0.49182713, w: 0.56281495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rAnkleTwistLctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_rAnkleAimLctr
+      position: {x: 0.40282682, y: -0.00000004544051, z: 0.0000000047049658}
+      rotation: {x: 0.04515827, y: -0.007784913, z: -0.070915304, w: 0.9964292}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeTwist75Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: 0.50663185, y: -0.4297785, z: 0.57428867, w: -0.47833806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeTwist50Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: -0.48325568, y: 0.45588726, z: -0.54829997, w: 0.5079349}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rKneeTwist25Lctr
+      parentName: Ultimate_Bony_v1_0_5:Bony_Lctr_Grp
+      position: {x: 0.12877174, y: 0.5155625, z: 0.11824798}
+      rotation: {x: -0.4585364, y: 0.48072895, z: -0.5207873, w: 0.53612}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: -0.25478378, y: 1.1396965, z: 0.022060532}
+      rotation: {x: -0.442067, y: 0.77879715, z: 0.089841895, w: 0.4358673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJG2
+      position: {x: -0.27365205, y: -0.000000095367426, z: 0.00006212171}
+      rotation: {x: 0.000000013957694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJG1
+      position: {x: -0.06173529, y: 1.7763567e-15, z: 0.04994049}
+      rotation: {x: 0.2651967, y: 0.56055236, z: 0.009430365, w: 0.78445065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lThumbJ1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.14454398, y: 0.30997553, z: 0.3971313, w: 0.8516508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJG1
+      position: {x: -0.05325902, y: -0.035411935, z: 0.06261085}
+      rotation: {x: 0.3321571, y: 0.6138744, z: 0.4827902, w: 0.528908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lThumbJ2CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.64278764, w: 0.76604444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJG1
+      position: {x: -0.048809327, y: -0.05033577, z: 0.03477655}
+      rotation: {x: 0.6490379, y: 0.2567486, z: 0.7098142, w: 0.09483543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_lThumbJ3CG
+      position: {x: 4.4408918e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lWristJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJG1
+      position: {x: -1.7763567e-16, y: 3.9079847e-15, z: 2.5673906e-17}
+      rotation: {x: 0.58669025, y: -0.068453476, z: 0.7252531, w: 0.3537183}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lPalmJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJ
+      position: {x: -0.042198095, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmJ
+      position: {x: -0.06367194, y: -4.0856206e-15, z: -0.014469472}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J2
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger2J1
+      position: {x: -0.037894584, y: 1.7763567e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2J3
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger2J2
+      position: {x: -0.035706565, y: -3.5527135e-16, z: -8.8817837e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger2JTip
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger2J3
+      position: {x: -0.037238177, y: 0, z: -2.7755574e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lPalmJ
+      position: {x: -0.06292234, y: -2.131628e-15, z: 0.035565812}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J2
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger1J1
+      position: {x: -0.036800575, y: 1.7763567e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1J3
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger1J2
+      position: {x: -0.037128776, y: 0, z: 8.8817837e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lFinger1JTip
+      parentName: Ultimate_Bony_v1_0_5:Bony_lFinger1J3
+      position: {x: -0.038441587, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_lWristJ
+      position: {x: -0.06173529, y: -1.9539924e-15, z: 0.04994049}
+      rotation: {x: 0.05826159, y: 0.42677438, z: 0.22376563, w: 0.87429863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_lThumbJ1
+      position: {x: -0.038553733, y: 3.5527135e-16, z: 3.5527135e-16}
+      rotation: {x: 0.1286967, y: -0.42341873, z: -0.13917646, w: 0.88588023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_lThumbJ2
+      position: {x: -0.031894654, y: -1.3322676e-16, z: -1.7763567e-16}
+      rotation: {x: 8.326673e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_lThumbJTip
+      parentName: Ultimate_Bony_v1_0_5:Bony_lThumbJ3
+      position: {x: -0.027548177, y: -1.2434497e-15, z: 8.8817837e-17}
+      rotation: {x: 0.15464598, y: -0.68998885, z: -0.15464598, w: 0.68998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJG2
+      parentName: Ultimate_Bony_v1_0_5:Bony_Main_CNT
+      position: {x: 0.3184298, y: 1.0944207, z: 0.062618874}
+      rotation: {x: 0.4996265, y: 0.76643395, z: 0.15692665, w: -0.37192258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJG1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJG2
+      position: {x: 0.27365205, y: -0.000000095367426, z: 0.00006212171}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ1CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJG1
+      position: {x: 0.06173529, y: -2.3092638e-15, z: -0.04994049}
+      rotation: {x: 0.2651967, y: 0.56055236, z: 0.009430365, w: 0.78445065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ1C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rThumbJ1CG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.14454398, y: 0.30997553, z: 0.3971313, w: 0.8516508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ2CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJG1
+      position: {x: 0.05325902, y: 0.035411935, z: -0.06261085}
+      rotation: {x: 0.3321571, y: 0.6138744, z: 0.4827902, w: 0.528908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ2C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rThumbJ2CG
+      position: {x: -4.4408918e-17, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.64278764, w: 0.76604444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ3CG
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJG1
+      position: {x: 0.048809327, y: 0.05033577, z: -0.03477655}
+      rotation: {x: 0.6490379, y: 0.2567486, z: 0.7098142, w: 0.09483543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ3C
+      parentName: Ultimate_Bony_v1_0_5:Bony_rThumbJ3CG
+      position: {x: -4.4408918e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rWristJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJG1
+      position: {x: -0, y: -4.263256e-15, z: 3.57353e-17}
+      rotation: {x: 0.59459203, y: -0.1780524, z: 0.7350208, w: 0.2729507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rPalmJ
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJ
+      position: {x: 0.042198095, y: 2.664535e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmJ
+      position: {x: 0.06292234, y: 1.8651746e-15, z: -0.035565812}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J2
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger1J1
+      position: {x: 0.036800575, y: 1.2434497e-15, z: 2.664535e-16}
+      rotation: {x: 0, y: 8.659561e-17, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1J3
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger1J2
+      position: {x: 0.037128776, y: -3.5527135e-16, z: 2.664535e-16}
+      rotation: {x: -1.2246469e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger1JTip
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger1J3
+      position: {x: 0.038441587, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rPalmJ
+      position: {x: 0.06367194, y: 3.6415314e-15, z: 0.014469472}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J2
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger2J1
+      position: {x: 0.037894584, y: 1.7763567e-16, z: -2.664535e-16}
+      rotation: {x: 0, y: 8.659561e-17, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2J3
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger2J2
+      position: {x: 0.035706565, y: -1.7763567e-16, z: 1.7763567e-16}
+      rotation: {x: -1.2246469e-16, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rFinger2JTip
+      parentName: Ultimate_Bony_v1_0_5:Bony_rFinger2J3
+      position: {x: 0.037238177, y: 0, z: -2.7755574e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ1
+      parentName: Ultimate_Bony_v1_0_5:Bony_rWristJ
+      position: {x: 0.06173529, y: 1.9539924e-15, z: -0.04994049}
+      rotation: {x: -0.42037696, y: 0.06341623, z: -0.8778441, w: 0.2205703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ2
+      parentName: Ultimate_Bony_v1_0_5:Bony_rThumbJ1
+      position: {x: -0.038553733, y: 7.105427e-16, z: -6.6613376e-16}
+      rotation: {x: -0.21196884, y: 0.4086592, z: -0.23629037, w: 0.8557066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJ3
+      parentName: Ultimate_Bony_v1_0_5:Bony_rThumbJ2
+      position: {x: -0.031894654, y: 3.3306688e-16, z: -1.7763567e-16}
+      rotation: {x: 1.3877788e-16, y: -2.1567932e-16, z: 2.7038443e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_rThumbJTip
+      parentName: Ultimate_Bony_v1_0_5:Bony_rThumbJ3
+      position: {x: -0.027548177, y: -1.4210854e-15, z: -6.2172483e-16}
+      rotation: {x: -0.15464598, y: -0.68998885, z: 0.15464598, w: 0.68998885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_Mesh_Grp
+      parentName: Bony_Model(Clone)
+      position: {x: 0.06259816, y: -1.299169, z: -0.5683055}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_body_Grp
+      parentName: Ultimate_Bony_v1_0_5:Bony_Mesh_Grp
+      position: {x: -0, y: 0.30945298, z: -0.09756143}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spine1
+      parentName: Ultimate_Bony_v1_0_5:Bony_body_Grp
+      position: {x: -0, y: -0.30945298, z: 0.09756143}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_spine2
+      parentName: Ultimate_Bony_v1_0_5:Bony_body_Grp
+      position: {x: -0, y: -0.30945298, z: 0.09756143}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_chest
+      parentName: Ultimate_Bony_v1_0_5:Bony_body_Grp
+      position: {x: -0, y: -0.30945298, z: 0.09756143}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_neck
+      parentName: Ultimate_Bony_v1_0_5:Bony_body_Grp
+      position: {x: -0, y: -0.30945298, z: 0.09756143}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_head
+      parentName: Ultimate_Bony_v1_0_5:Bony_body_Grp
+      position: {x: -0, y: -0.30945298, z: 0.09756143}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_leg_Grp
+      parentName: Ultimate_Bony_v1_0_5:Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_foot
+      parentName: Ultimate_Bony_v1_0_5:Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_toe
+      parentName: Ultimate_Bony_v1_0_5:Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_ankle
+      parentName: Ultimate_Bony_v1_0_5:Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_knee
+      parentName: Ultimate_Bony_v1_0_5:Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_but
+      parentName: Ultimate_Bony_v1_0_5:Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_leg
+      parentName: Ultimate_Bony_v1_0_5:Bony_L_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      parentName: Ultimate_Bony_v1_0_5:Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_shoulder
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_elbow
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_wrist
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_hand
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_thumb3
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_thumb2
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_thumb1
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_index1
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_index2
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_index3
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_pinky3
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_pinky2
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_pinky1
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_L_arm
+      parentName: Ultimate_Bony_v1_0_5:Bony__L_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_pelvis
+      parentName: Ultimate_Bony_v1_0_5:Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_leg_Grp
+      parentName: Ultimate_Bony_v1_0_5:Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_foot
+      parentName: Ultimate_Bony_v1_0_5:Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_toe
+      parentName: Ultimate_Bony_v1_0_5:Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_ankle
+      parentName: Ultimate_Bony_v1_0_5:Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_knee
+      parentName: Ultimate_Bony_v1_0_5:Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_but
+      parentName: Ultimate_Bony_v1_0_5:Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_leg
+      parentName: Ultimate_Bony_v1_0_5:Bony_R_leg_Grp
+      position: {x: -0, y: 0, z: -0.004141814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      parentName: Ultimate_Bony_v1_0_5:Bony_Mesh_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_shoulder
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_elbow
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_wrist
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_hand
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_thumb3
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_thumb2
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_thumb1
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_index1
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_index2
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_index3
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_pinky3
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_pinky2
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_pinky1
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ultimate_Bony_v1_0_5:Bony_R_arm
+      parentName: Ultimate_Bony_v1_0_5:Bony__R_arm_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -90,7 +3265,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.19999999
+    globalScale: 20
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -99,7 +3274,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
