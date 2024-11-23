@@ -3,6 +3,7 @@ using UnityEngine;
 public class DashController : MonoBehaviour
 {
     private CharacterController controller;
+    private Animator animator;
 
     public float dashSpeed = 20f;
     public float dashDuration = 0.2f;
@@ -11,10 +12,12 @@ public class DashController : MonoBehaviour
     private bool isDashing = false;
     private float dashTime;
     private float cooldownTimer = 0f;
+    private static readonly int Dashing = Animator.StringToHash("IsDashing");
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -31,6 +34,7 @@ public class DashController : MonoBehaviour
 
         if (isDashing)
         {
+            animator.SetBool(Dashing, true);
             Dash();
         }
     }
@@ -52,6 +56,7 @@ public class DashController : MonoBehaviour
         }
         else
         {
+            animator.SetBool(Dashing, false);
             isDashing = false;
         }
     }
