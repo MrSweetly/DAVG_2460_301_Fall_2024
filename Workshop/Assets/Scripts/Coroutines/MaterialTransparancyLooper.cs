@@ -3,8 +3,13 @@ using UnityEngine;
 
 public class MaterialTransparencyLooper : MonoBehaviour
 {
-    public Renderer targetRenderer; // Assign the object's Renderer in the Inspector
-    public float fadeDuration = 2f; // Time it takes to fade in or out
+    private static readonly int Color1 = Shader.PropertyToID("_Color");
+    private static readonly int Mode = Shader.PropertyToID("_Mode");
+    private static readonly int SrcBlend = Shader.PropertyToID("_SrcBlend");
+    private static readonly int DstBlend = Shader.PropertyToID("_DstBlend");
+    private static readonly int ZWrite = Shader.PropertyToID("_ZWrite");
+    public Renderer targetRenderer;
+    public float fadeDuration = 2f;
 
     private Material targetMaterial;
 
@@ -15,27 +20,28 @@ public class MaterialTransparencyLooper : MonoBehaviour
             Debug.LogError("Target Renderer is not assigned.");
             return;
         }
+        // End of if
 
-        // Get the material from the Renderer
         targetMaterial = targetRenderer.material;
 
-        // Ensure the material is in Transparent mode
         SetMaterialToTransparent(targetMaterial);
 
-        // Start the fade loop coroutine
         StartCoroutine(FadeLoop());
     }
+    // End of Start
 
     private IEnumerator FadeLoop()
     {
-        while (true) // Infinite loop
+        while (true)
         {
             // Fade out to full transparency
             yield return StartCoroutine(Fade(1f, 0f));
             // Fade in to full opacity
             yield return StartCoroutine(Fade(0f, 1f));
         }
+        // End of while
     }
+    // End of FadeLoop
 
     private IEnumerator Fade(float startAlpha, float endAlpha)
     {
@@ -44,31 +50,32 @@ public class MaterialTransparencyLooper : MonoBehaviour
 
         while (elapsedTime < fadeDuration)
         {
-            // Calculate the new alpha value
             float newAlpha = Mathf.Lerp(startAlpha, endAlpha, elapsedTime / fadeDuration);
             targetMaterial.color = new Color(initialColor.r, initialColor.g, initialColor.b, newAlpha);
 
-            // Increment the elapsed time
             elapsedTime += Time.deltaTime;
             yield return null;
         }
+        // End of while
 
-        // Ensure alpha is set to the exact target at the end
         targetMaterial.color = new Color(initialColor.r, initialColor.g, initialColor.b, endAlpha);
     }
+    // End of Fade
 
     private void SetMaterialToTransparent(Material material)
     {
-        if (material.HasProperty("_Color"))
+        if (material.HasProperty(Color1))
         {
-            material.SetFloat("_Mode", 3); // 3 = Transparent in Standard Shader
-            material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
-            material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
-            material.SetInt("_ZWrite", 0);
+            material.SetFloat(Mode, 3);
+            material.SetInt(SrcBlend, (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+            material.SetInt(DstBlend, (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+            material.SetInt(ZWrite, 0);
             material.DisableKeyword("_ALPHATEST_ON");
             material.EnableKeyword("_ALPHABLEND_ON");
             material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
             material.renderQueue = 3000;
         }
+        // End of if
     }
+    // End of SetMaterialToTransparent
 }
