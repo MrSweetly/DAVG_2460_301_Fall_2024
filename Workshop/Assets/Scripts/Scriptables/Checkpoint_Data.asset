@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22890b50f993e9d458f661d3f7ef4472, type: 3}
   m_Name: Checkpoint_Data
   m_EditorClassIdentifier: 
-  value: {x: 9, y: 3, z: 0}
+  value: {x: 0, y: 0, z: 0}
